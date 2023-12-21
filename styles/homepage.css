@@ -1,0 +1,52 @@
+body {
+  padding-top: 300px;
+}
+
+#sec1 {
+  width: 80%;
+  padding: 10px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  margin: auto;
+  max-width: 80%;
+}
+
+#register {
+  margin: auto;
+  top: 30%;
+  position: relative;
+}
+
+.topnav #backgroundimg {
+  background-image: url('../images/HomeBg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  #sec1 {
+    transform: translateX(-40px);
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-align: left;
+    position: absolute;
+    transform: translate(100px, -20px);
+  }
+  .topnav {
+    height: 250px;
+  }
+  p {
+    font-size: 1em;
+    min-width: 90%;
+  }
+}

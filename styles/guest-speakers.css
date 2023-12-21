@@ -1,0 +1,27 @@
+.topnav #backgroundimg {
+  background-image: url('../images/Guest-Speakers.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.speakers {
+  margin: 50px auto 20px auto;
+  border-bottom: 2px solid rgb(141, 141, 141);
+}
+
+.speakers img {
+ width: 300px;
+ height: 300px;
+ object-fit: cover;
+}
+
+.speakers p {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.names {
+  color: rgb(0, 61, 91);
+  margin-bottom: 0;
+}

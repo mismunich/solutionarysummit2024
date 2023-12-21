@@ -1,0 +1,24 @@
+#backgroundimg {
+  background-image: url('../images/Schedule.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+table {
+  margin-top: 60px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  width: 200px;
+}
+
+table, tr, th, td {
+  border: solid 1px black;
+  border-collapse: collapse;
+  padding: 10px;
+}

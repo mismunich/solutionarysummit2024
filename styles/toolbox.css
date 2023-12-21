@@ -1,0 +1,91 @@
+#backgroundimg {
+  background-image: url('../images/Toolbox.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.rotate-right {
+  transition: transform 0.5s ease-in-out;
+}
+
+.rotate-right.clicked {
+  transform: rotate(90deg);
+}
+
+.sustainabilityCompassText {
+  margin: 245px 100px 100px 800px;
+}
+
+table {
+  margin: 150px auto 50px auto;
+  width: 80%;
+  border-spacing: 0;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  text-align: left;
+}
+
+th.Nature, td.Nature {
+  background-color: rgb(128, 154, 128);
+}
+
+th.Economy, td.Economy {
+  background-color: rgb(118, 118, 193);
+}
+
+th.Society, td.Society {
+  background-color: rgb(197, 161, 95);
+}
+
+th.Wellbeing, td.Wellbeing {
+  background-color: rgb(205, 141, 141);
+}
+
+.developmentGoals {
+  margin-top: 0;
+  width: 80%;
+}
+
+#left-text {
+  margin-left: 25%;
+  text-align: left;
+}
+
+.subheadings {
+  font-size: 30px;
+  color: rgb(0, 61, 91);
+}
+
+.MO-GO-questions {
+  background-color: rgb(0, 171, 229);
+  border: 0px rgb(245, 245, 245);
+  vertical-align: middle;
+  padding: 0;
+}
+
+.MO-GO-container {
+  margin-left: 85px;
+  width: 90%
+}
+
+.leftFloat {
+  float: left;
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 15px;
+}
+
+.rightFloat {
+  float: right;
+  width: 25%;
+  margin-right: 150px;
+  margin-left: 2%;
+  margin-top: 15px;
+}
