@@ -164,6 +164,12 @@ center {
   }
 }
 
+@media screen and (max-width: 755px) {
+  center {
+    width: 375px;
+  }
+}
+
 
 @media screen and (max-width: 925px) {
   .topnav a:not(:first-child) {

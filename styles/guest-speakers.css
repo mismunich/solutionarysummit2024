@@ -52,7 +52,7 @@
 @media screen and (max-width: 925px) {
   .speakers img {
     height: 240px;
-    border-radius: 20px;
+    width: 240px;
     float: none;
     margin-bottom: 10px;
     margin-inline: auto;
