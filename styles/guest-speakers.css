@@ -62,3 +62,9 @@
   }
   
 }
+
+@media screen and (max-width: 755px) {
+  .speakers {
+    padding-inline: 0;
+  }
+}
