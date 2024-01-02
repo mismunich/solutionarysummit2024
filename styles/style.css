@@ -133,7 +133,39 @@ p {
   color: rgb(0, 61, 91);
 }
 
-@media screen and (max-width: 755px) {
+center {
+  width: 1229px;
+  margin-inline: auto;
+}
+
+@media screen and (max-width: 1229px) {
+  center {
+    width: 925px;
+  }
+  p {
+    font-size: 17px;
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  center {
+    width: 625px;
+  }
+  p {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 25px;
+    clear: both;
+  }
+}
+
+
+@media screen and (max-width: 925px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -153,7 +185,6 @@ p {
     text-align: left;
   }
 }
-
 
 .hide {
   display: none;
