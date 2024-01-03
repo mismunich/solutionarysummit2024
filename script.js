@@ -2,7 +2,7 @@ function toggleResponsive() {
   let x = document.getElementById("topNav");
   if (x.className === "topnav") {
     x.className += " responsive";
-    x.style = "height: 375px;";
+    x.style = "height: 425px;";
   } else {
     x.className = "topnav";
     x.style = "height: 60px;";
@@ -38,5 +38,5 @@ try {
     });
   });
 } catch {
-  console.log("there is no compass here :C");
+  console.log("there is no compass here :(");
 }
