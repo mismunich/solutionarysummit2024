@@ -166,7 +166,7 @@ center {
   center {
     width: 550px;
   }
-  table p {
+  p {
     font-size: 13px;
   }
 }
@@ -176,7 +176,7 @@ center {
     width: 320px;
   }
   table p {
-    font-size: 11;
+    font-size: 11px;
     padding: 0
   }
 }

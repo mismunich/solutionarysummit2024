@@ -45,7 +45,7 @@
 
 #sustainabilityTableDiv {
   width: 90%;
-  padding-block: 5%;
+  padding: 4.5% 0.5%;
   background-color: rgb(221, 239, 252);
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
   border-radius: 70px;
@@ -140,12 +140,33 @@ th.Wellbeing, td.Wellbeing {
   p {
     line-height: normal;
   }
+  #sustainabilityTableDiv {
+    border-radius: 50px;
+  }
+  .compass {
+    width: 280px;
+  }
+  .sustainabilityCompassText {
+    margin-top: -25px;
+  }
 }
 
 @media screen and (max-width: 758px) {
-  
+  #sustainabilityTableDiv {
+    padding: 7% 4%;
+    border-radius: 40px;
+  }
+  .compass {
+    width: 220px;
+  }
+  .sustainabilityCompassText {
+    margin-top: -50px;
+  }
 }
 
 @media screen and (max-width: 550px) {
-  
+  #sustainabilityTableDiv {
+    padding: 7% 4%;
+    border-radius: 30px;
+  }
 }
