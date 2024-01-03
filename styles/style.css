@@ -136,6 +136,7 @@ p {
 center {
   width: 1229px;
   margin-inline: auto;
+  position: relative;
 }
 
 @media screen and (max-width: 1229px) {
@@ -153,7 +154,7 @@ center {
 
 @media screen and (max-width: 925px) {
   center {
-    width: 755px;
+    width: 758px;
   }
   p {
     font-size: 15px;
@@ -164,7 +165,7 @@ center {
   }
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 758px) {
   center {
     width: 550px;
   }
@@ -176,7 +177,7 @@ center {
   }
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 758px) {
   .topnav a:not(:first-child) {
     display: none;
   }
