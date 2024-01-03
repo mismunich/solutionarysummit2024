@@ -169,4 +169,19 @@ th.Wellbeing, td.Wellbeing {
     padding: 7% 4%;
     border-radius: 30px;
   }
+  .compass {
+    width: 200px;
+  }
+  .compassBox {
+    margin: 0 auto;
+    float: none;
+  }
+  .sustainabilityCompassText {
+    clear: both;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .compassBox p {
+    margin-top: 10px;
+  }
 }
