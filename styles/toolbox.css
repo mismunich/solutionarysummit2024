@@ -198,6 +198,7 @@ table.wellbeing th, table.wellbeing td {
   #sustainabilityTableDiv {
     padding: 7% 4%;
     border-radius: 30px;
+    width: 90%;
   }
   .compass {
     width: 200px;
