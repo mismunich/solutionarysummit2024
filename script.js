@@ -28,7 +28,7 @@ function e() {
 
 try {
   document.addEventListener('DOMContentLoaded', function () {
-    const compass = document.querySelector('.rotate-right');
+    const compass = document.querySelector('.compass');
     let rotAngle = 0;
 
     compass.addEventListener('click', function () {
