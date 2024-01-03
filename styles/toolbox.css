@@ -66,10 +66,14 @@ table p {
 }
 
 th, td {
-  border: 1px solid black;
+  border: none;
   font-size: 20px;
   padding: 2px 5px 2px 5px;
   text-align: left;
+}
+
+td {
+  border-block: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 th.Nature, td.Nature {
