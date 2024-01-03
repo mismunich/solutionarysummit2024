@@ -8,8 +8,8 @@
 }
 
 
-/* 
-  Sustainability Compass Section
+/*
+  ! Sustainability Compass Section !
 */
 
 
@@ -57,6 +57,7 @@ table {
   margin-inline: auto;
   width: 90%;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 table p {
@@ -66,7 +67,6 @@ table p {
 
 th, td {
   border: 1px solid black;
-  border-collapse: collapse;
   font-size: 20px;
   padding: 2px 5px 2px 5px;
   text-align: left;
@@ -88,6 +88,32 @@ th.Wellbeing, td.Wellbeing {
   background-color: rgb(193, 90, 90);
 }
 
+table.nature th, table.nature td {
+  background-color: rgb(96, 129, 96);
+}
+
+table.economy th, table.economy td {
+  background-color: rgb(107, 107, 166);
+}
+
+table.society th, table.society td {
+  background-color: rgb(206, 161, 78);
+}
+
+table.wellbeing th, table.wellbeing td {
+  background-color: rgb(193, 90, 90);
+}
+
+.mobileTable {
+  display: none;
+}
+
+/* 
+  ! Inner Development Goals Section !
+*/
+
+
+/*  */
 
 .developmentGoals {
   margin-top: 0;
@@ -183,5 +209,14 @@ th.Wellbeing, td.Wellbeing {
   }
   .compassBox p {
     margin-top: 10px;
+  }
+  .normalTable {
+    display: none;
+  }
+  .mobileTable {
+    display: table;
+  }
+  .mobileTable th, .mobileTable td {
+    font-size: 11px;
   }
 }
