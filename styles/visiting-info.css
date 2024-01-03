@@ -1,8 +1,4 @@
-#register {
-  margin: auto;
-  top: 30px;
-  position: relative;
-}
+/* Navbar Text */
 
 #backgroundimg {
   background-image: url('../images/Visiting-Info.png');
@@ -10,6 +6,14 @@
   background-repeat: no-repeat;
   background-size: 150px;
 }
+
+#register {
+  margin: auto;
+  top: 30px;
+  position: relative;
+}
+
+
 
 #HotelInfoText {
   width: 200px;
