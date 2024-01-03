@@ -11,6 +11,10 @@ body {
   padding-top: 300px;
 }
 
+p {
+  margin-inline: 5%;
+}
+
 #sec1 {
   width: 80%;
   padding: 10px;
@@ -30,6 +34,12 @@ h1 {
   margin: auto;
   top: 30%;
   position: relative;
+}
+
+@media screen and (max-width: 1229px) {
+  h1 {
+    font-size: 45px;
+  }
 }
 
 @media screen and (max-width: 925px) {
