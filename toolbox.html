@@ -25,7 +25,7 @@
     <center>
       <h1 class="fancyH1">The Sustainability Compass</h1>
       <div id="sustainabilityCompassDiv">
-        <div class="left compassBox">
+        <div class="left" id="compassBox">
           <img src="images/Sustainability Compass.png" alt="The Sustainability Compass" class="compass">
           <p>Click to rotate!</p>
         </div>
@@ -43,7 +43,6 @@
       </div>
       <br>
       <div id="sustainabilityTableDiv">
-        
         <div class="normalTable">
           <table>
             <tr>
@@ -176,7 +175,7 @@
       </div>
       
       <h1 class="fancyH1">Inner Development Goals</h1>
-      <img class="developmentGoals" src="images/Inner Development Goals.jpg" alt="Inner Development Goals">
+      <img id="developmentGoals" src="images/Inner Development Goals.jpg" alt="Inner Development Goals">
       <p>
         Before digging into the issues that we care about, we must first
         build care and strength for our own self.
@@ -184,60 +183,81 @@
       <p>
         This framework was created to support the United Nations Sustainable Development Goals.
       </p>
-      <img src="images/Investigation.jpg" alt="Service Learning Investigation">
+      <img id="investigation" src="images/Investigation.jpg" alt="Service Learning Investigation">
       <h1 class="fancyH1">MISO Method</h1>
       <p>To easily investigate other perspectives in K-12 and in higher education,
         we can use a service learning research tool: MISO.
         Originator Cathryn Berger Kaye and her collaborators Shei Ascencio
         and LeeAnne Lavender of CBK Associates, they created the MISO method of research.
       </p>
-      <h1 class="subheadings">MO-GO Questionnaire <br><span style="font-weight: 100; font-size: 25px;">(Designed by the Institute for Humane Education)</span></h1>
-      <p id="left-text">Most questions are divided into three parts: <br> <br>
-        <span style="line-height: 30px;">
+      <h1 class="subheadings">MO-GO Questionnaire <br><span style="font-weight: 100;">(Designed by the Institute for Humane Education)</span></h1>
+      <p id="mogoQuestionnaire">Most questions are divided into three parts: <br> <br>
         a. What you currently do (so that you can identify the ways you're already living your values); <br>
         b. What you want to learn/do (so that you can set goals for living a more MOGO life);<br>
         c. What steps will you take (so that you are making specific, actionable plans for living with deeper integrity).
-        </span>  
       </p>
-      <div class="MO-GO-container">
-        <div class="MO-GO-questions leftFloat" >
-          <p>
-            The qualities that are most important to me and that I currently model to loved ones: 
-          </p>
-        </div>
-        <div class="MO-GO-questions rightFloat" >
-          <p>
-            To successfully model my chosen qualities/values, I will take the following steps: (In answering this prompt, consider such questions as, Who am I willing to talk to? What am I willing to give? And what am I willing to risk?)
-          </p>
-        </div>
-        <div class="MO-GO-questions leftFloat" >
-          <p>
-            Qualities/values I want to model more consciously:
-          </p>
-        </div>
-      </div>
-      <img style="margin-top: 20px; width: 65%" src="images/Taking Action.jpg" alt="Taking Action">
+      <table id="mogoQuestionsTable">
+        <tr>
+          <td>
+            <p>
+              The qualities that are most important to me and that I currently model to loved ones: 
+            </p>
+          </td>
+          <td rowspan="2">
+            <p>
+              To successfully model my chosen qualities/values, I will take the following steps: (In answering this prompt, consider such questions as, Who am I willing to talk to? What am I willing to give? And what am I willing to risk?)
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Qualities/values I want to model more consciously:
+            </p>
+          </td>
+        </tr>
+      </table>
+      <img id="takingAction" src="images/Taking Action.jpg" alt="Taking Action">
       <p>
         Whether planning or reflecting, the MoGo resource can be used for addressing service. Examples of action that fall into one of the four categories: advocacy, direct action, research,  
       </p>
-      <h1 class="fancyH1">Teaspoons of Change</h1>
+      <h1 class="subheadings">Teaspoons of Change</h1>
       <p>
         "Teaspoon of Change is a concept and mindset. It is knowing that all our choices, decisions and actions have an impact on people and the planet."
       </p>
-      <img style="margin-top: 20px; width: 65%" src="images/Root Cause Tree.jpg" alt="Root Cause Tree">
       <h1 class="fancyH1">The Root Cause Analysis Tree</h1>
+      <img id="rootCauseTree" src="images/Root Cause Tree.jpg" alt="Root Cause Tree">
       <p>
-        This model is developed to help us understand the actual issue that is being addressed and it provides a very nice jumping board when working with problem-solving and finding solutions. <br>
+        This model is developed to help us understand the actual issue that is being addressed and it provides a very nice jumping board when working with problem-solving and finding solutions. <br> <br>
         First, address what the central problem is which is how you define the general issue, and you then work to analyze the symptoms of the issue which also includes its impact, etc. You then lastly identify what is actually causing the issue and this is also where you can develop a solution to the issue. 
       </p>
-      <img class="rightFloat" style="width: 35%" src="images/Iceberg Tool.jpg" alt="The Iceberg Tool">
-      <h1 style="margin-top: 15%;">The Iceberg Tool</h1>
-      <p style="margin-right: 50%;">
-        There are many different versions of this tool around the world and it is widely popular in all kinds of work.
-        Similar to the root cause analysis tree the Iceberg is used to identify the underlying issue of something.
-        You first identify the superficial events that you see happen (similar to what the symptoms are) which is what you are reacting to.
-        This is the surface of the iceberg, but as you may know, icebergs extend deeply into the sea and the surface is only a small part of the whole structure. You then identify which patterns you can associate with the issue also known as anticipating. 
-      </p>
+      <h1 class="fancyH1">The Iceberg Tool</h1>
+      <div class="icebergToolDiv">
+        <div id="icebergText">
+          <p>
+            There are many different versions of this tool around the world and it is widely popular in all kinds of work.
+            Similar to the root cause analysis tree the Iceberg is used to identify the underlying issue of something.
+            You first identify the superficial events that you see happen (similar to what the symptoms are) which is what you are reacting to.
+            This is the surface of the iceberg, but as you may know, icebergs extend deeply into the sea and the surface is only a small part of the whole structure. You then identify which patterns you can associate with the issue also known as anticipating. 
+          </p>
+        </div>
+        <div id="icebergBox" class="right">
+          <img id="icebergImage" src="images/Iceberg Tool.jpg" alt="The Iceberg Tool">
+        </div>
+      </div>
+      <div class="icebergToolDivMobile">
+        <div id="icebergBox" class="right">
+          <img id="icebergImage" src="images/Iceberg Tool.jpg" alt="The Iceberg Tool">
+        </div>
+        <div id="icebergText">
+          <p>
+            There are many different versions of this tool around the world and it is widely popular in all kinds of work.
+            Similar to the root cause analysis tree the Iceberg is used to identify the underlying issue of something.
+            You first identify the superficial events that you see happen (similar to what the symptoms are) which is what you are reacting to.
+            This is the surface of the iceberg, but as you may know, icebergs extend deeply into the sea and the surface is only a small part of the whole structure. You then identify which patterns you can associate with the issue also known as anticipating. 
+          </p>
+        </div>
+      </div>
     </center>
     <script src="script.js"></script>
   </body>

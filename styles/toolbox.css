@@ -21,7 +21,7 @@
 
 /* Sustainability Compass */
 
-.compassBox {
+#compassBox {
   margin-left: 5%;
 }
 
@@ -112,47 +112,103 @@ table.wellbeing th, table.wellbeing td {
   display: none;
 }
 
+
 /* 
   ! Inner Development Goals Section !
 */
 
 
-/*  */
+/* Inner Development Goals Image */
 
-.developmentGoals {
+#developmentGoals {
   margin-top: 0;
-  width: 80%;
+  width: 90% /*1106px*/;
 }
 
-#left-text {
-  margin-left: 25%;
+/* Investigation Image */
+
+#investigation {
+  width: 30%;
+}
+
+
+/* 
+  ! MISO Method Section !
+*/
+
+
+/* MO-GO Questionnaire */
+
+#mogoQuestionnaire {
   text-align: left;
 }
 
-.subheadings {
-  font-size: 30px;
-  color: rgb(0, 61, 91);
-}
+/* MO-GO Questions Table */
 
-.MO-GO-questions {
+#mogoQuestionsTable td {
+  border: 2px solid rgba(0, 0, 0, 0.2);
   background-color: rgb(0, 171, 229);
-  border: 0px rgb(245, 245, 245);
-  vertical-align: middle;
-  padding: 0;
 }
 
-.MO-GO-container {
-  margin-left: 85px;
-  width: 90%
+/* Taking Action Image */
+
+#takingAction {
+  margin-top: 50px;
+  width: 60%
 }
 
-.rightFloat {
-  float: right;
-  width: 25%;
-  margin-right: 150px;
-  margin-left: 2%;
-  margin-top: 15px;
+
+/*
+  ! Root Cause Analysis Tree Section !
+*/
+
+
+/* Root Cause Tree Image */
+
+#rootCauseTree {
+  width: 60%
 }
+
+
+/* 
+  ! Iceberg Tool Section !
+*/
+
+
+/* Iceberg Tool Divs */
+
+.icebergToolDiv {
+  overflow: hidden;
+}
+
+.icebergToolDivMobile {
+  display: none;
+}
+
+/* Iceberg Image */
+
+#icebergImage {
+  width: 100%
+}
+
+#icebergBox {
+  margin-right: 5%;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+/* Iceberg Text */
+
+#icebergText {
+  width: 50%;
+  float: left;
+  margin: 130px 0 0 0;
+}
+
+/* 
+  ! Media Queries !
+*/
+
 
 @media screen and (max-width: 1229px) {
   p {
@@ -163,6 +219,15 @@ table.wellbeing th, table.wellbeing td {
   }
   .sustainabilityCompassText {
     margin-top: 80px;
+  }
+  #investigation {
+    width: 40%;
+  }
+  #icebergBox {
+    width: 400px;
+  }
+  #icebergText {
+    margin-top: 70px;
   }
 }
 
@@ -179,6 +244,15 @@ table.wellbeing th, table.wellbeing td {
   .sustainabilityCompassText {
     margin-top: -25px;
   }
+  #investigation {
+    width: 50%;
+  }
+  #icebergBox {
+    width: 340px;
+  }
+  #icebergText {
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 758px) {
@@ -192,6 +266,19 @@ table.wellbeing th, table.wellbeing td {
   .sustainabilityCompassText {
     margin-top: -50px;
   }
+  #investigation {
+    width: 60%;
+  }
+  #takingAction, #rootCauseTree {
+    width: 70%;
+  }
+  #icebergBox {
+    width: 240px;
+    margin-top: 10px;
+  }
+  #icebergText {
+    margin-top: -50px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -203,7 +290,7 @@ table.wellbeing th, table.wellbeing td {
   .compass {
     width: 200px;
   }
-  .compassBox {
+  #compassBox {
     margin: 0 auto;
     float: none;
   }
@@ -212,7 +299,7 @@ table.wellbeing th, table.wellbeing td {
     margin-top: 30px;
     margin-left: 0;
   }
-  .compassBox p {
+  #compassBox p {
     margin-top: 10px;
   }
   .normalTable {
@@ -223,5 +310,25 @@ table.wellbeing th, table.wellbeing td {
   }
   .mobileTable th, .mobileTable td {
     font-size: 11px;
+  }
+  #investigation {
+    width: 70%;
+  }
+  #takingAction, #rootCauseTree {
+    width: 80%;
+  }
+  .icebergToolDiv {
+    display: none;
+  }
+  .icebergToolDivMobile {
+    display: block;
+  }
+  #icebergBox {
+    float: none;
+    clear: both;
+  }
+  #icebergText {
+    clear: both;
+    width: 100%;
   }
 }
