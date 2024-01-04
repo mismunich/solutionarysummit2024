@@ -326,7 +326,7 @@ table.wellbeing th, table.wellbeing td {
   #icebergBox {
     float: none;
     clear: both;
-    margin: 0;
+    margin-inline: 0;
   }
   #icebergText {
     clear: both;
