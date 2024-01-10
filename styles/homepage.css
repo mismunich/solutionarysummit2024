@@ -36,9 +36,16 @@ h1 {
   position: relative;
 }
 
+footer {
+  margin-top: 5%;
+}
+
 @media screen and (max-width: 1229px) {
   h1 {
     font-size: 45px;
+  }
+  footer {
+    margin-top: 11%;
   }
 }
 
@@ -46,11 +53,20 @@ h1 {
   h1 {
     font-size: 40px;
   }
+  footer {
+    margin-top: 16%;
+  }
 }
 
 @media screen and (max-width: 758px) {
   h1 {
     font-size: 35px;
+  }
+  center p {
+    line-height: 17px;
+  }
+  footer {
+    margin-top: 18%;
   }
 }
 
