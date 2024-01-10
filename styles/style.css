@@ -148,7 +148,7 @@ center {
   center {
     width: 925px;
   }
-  p {
+  center p {
     font-size: 17px;
   }
   h1 {
@@ -160,11 +160,11 @@ center {
   }
 }
 
-/* @media screen and (max-width: 925px) {
+@media screen and (max-width: 925px) {
   center {
     width: 758px;
   }
-  p {
+  center p {
     font-size: 15px;
   }
   h1 {
@@ -174,13 +174,13 @@ center {
   .subheadings {
     font-size: 20px;
   }
-} */
+}
 
 @media screen and (max-width: 758px) {
   center {
     width: 550px;
   }
-  p {
+  center p {
     font-size: 13px;
   }
 }
@@ -224,7 +224,7 @@ footer {
   background-color: #333;
   padding: 20px;
   margin-bottom: 0;
-  font-size: 6px !important;
+  font-size: 6px;
 }
 
 .container {
