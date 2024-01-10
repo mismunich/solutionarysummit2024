@@ -5,7 +5,7 @@
 body {
   background-color: rgb(221, 239, 252);
   margin: 0;
-  padding: 253px 0 100px 0;
+  padding: 253px 0 0 0;
   height: 1000px;
   text-align: center;
 }
@@ -148,7 +148,7 @@ center {
   center {
     width: 925px;
   }
-  center p {
+  p {
     font-size: 17px;
   }
   h1 {
@@ -164,7 +164,7 @@ center {
   center {
     width: 758px;
   }
-  center p {
+  p {
     font-size: 15px;
   }
   h1 {
@@ -180,7 +180,7 @@ center {
   center {
     width: 550px;
   }
-  center p {
+  p {
     font-size: 13px;
   }
 }
@@ -221,35 +221,40 @@ center {
 }
 
 footer {
-  background-color: #333;
+  background-image: linear-gradient(to right, rgb(0, 61, 91), rgb(0, 171, 229));
   padding: 20px;
-  margin-bottom: 0;
   font-size: 6px;
+  color: rgb(255, 255, 255);
+  margin-top: 2%;
+}
+
+footer p {
+  line-height: 25px;
+  padding: 0;
+  margin-top: 15px;
 }
 
 .container {
   margin-bottom: 0;
 }
 
-.footer-column {
-  margin-top: 20px;
-}
-
-.site-footer-title {
+.footer-title {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #ffffff;
+  margin: 0;
+  line-height: 1.2rem;
 }
 
-.site-footer-link {
-  color: #ffffff;
+.footer-link {
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-.site-footer-link:hover {
+.footer-link:hover {
   text-decoration: underline;
 }
 
 .text-white {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
 }
