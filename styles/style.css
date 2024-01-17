@@ -195,7 +195,7 @@ center {
   }
 }
 
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 892px) {
   .topnav a:not(:first-child) {
     display: none;
   }
