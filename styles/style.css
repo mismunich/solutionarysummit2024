@@ -144,6 +144,11 @@ center {
   position: relative;
 }
 
+li h1 {
+  font-size: 30px;
+  color: rgb(20, 63, 109);
+}
+
 @media screen and (max-width: 1229px) {
   center {
     width: 925px;
@@ -156,6 +161,9 @@ center {
     margin-top: 0;
   }
   .subheadings {
+    font-size: 25px;
+  }
+  li h1 {
     font-size: 25px;
   }
 }
@@ -172,6 +180,9 @@ center {
     clear: both;
   }
   .subheadings {
+    font-size: 20px;
+  }
+  li h1 {
     font-size: 20px;
   }
 }
