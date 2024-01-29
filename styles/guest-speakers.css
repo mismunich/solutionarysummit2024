@@ -34,6 +34,7 @@
 .speakers p {
   margin: 20px auto 0 auto;
   padding-inline: 50px;
+  text-align: left;
 }
 
 .speakerMargin {
