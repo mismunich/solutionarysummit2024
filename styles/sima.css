@@ -12,3 +12,19 @@ iframe {
   width: 100%;
   height: 150%;
 }
+
+.sima-link {
+  margin-bottom: 50px;
+  padding: 25px 40px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 800;
+  background-color: rgb(179, 223, 255);
+  color: rgb(0, 61, 91);
+  transition: all 0.2s;
+}
+
+.sima-link:hover {
+  box-shadow: 3px 5px 20px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
