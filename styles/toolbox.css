@@ -140,12 +140,29 @@ table.wellbeing th, table.wellbeing td {
   width: 90% /*1106px*/;
 }
 
+#FISChangemakerProfile {
+  width: 90%;
+}
+
 /* Investigation Image */
 
 #investigation {
-  width: 30%;
+  width: 25%;
+  float: left;
 }
 
+#investigation {
+  width: 30%;
+  margin-inline: 5%;
+}
+#investigationDiv p {
+  margin-top: 140px;
+}
+
+#investigationDiv {
+  overflow: hidden;
+  margin-top: 40px;
+}
 
 /* 
   ! MISO Method Section !
@@ -236,7 +253,14 @@ table.wellbeing th, table.wellbeing td {
     margin-top: 80px;
   }
   #investigation {
-    width: 40%;
+    width: 30%;
+    margin-inline: 5%;
+  }
+  #investigationDiv p {
+    margin-top: 100px;
+  }
+  #investigationDiv {
+    margin-top: 30px;
   }
   #icebergBox {
     width: 400px;
@@ -260,7 +284,14 @@ table.wellbeing th, table.wellbeing td {
     margin-top: -25px;
   }
   #investigation {
-    width: 50%;
+    width: 35%;
+    margin-inline: 5%;
+  }
+  #investigationDiv p {
+    margin-top: 100px;
+  }
+  #investigationDiv {
+    margin-top: 30px;
   }
   #icebergBox {
     width: 340px;
@@ -282,7 +313,14 @@ table.wellbeing th, table.wellbeing td {
     margin-top: -50px;
   }
   #investigation {
-    width: 60%;
+    width: 40%;
+    margin-inline: 5%;
+  }
+  #investigationDiv p {
+    margin-top: 70px;
+  }
+  #investigationDiv {
+    margin-top: 30px;
   }
   #takingAction, #rootCauseTree {
     width: 70%;
@@ -327,7 +365,12 @@ table.wellbeing th, table.wellbeing td {
     font-size: 11px;
   }
   #investigation {
-    width: 70%;
+    margin-top: 30px;
+    float: none;
+    width: 50%;
+  }
+  #investigationDiv p {
+    margin: 25px;
   }
   #takingAction, #rootCauseTree {
     width: 80%;
