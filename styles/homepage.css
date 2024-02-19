@@ -1,10 +1,10 @@
 /* Navbar Text */
 
 .topnav #backgroundimg {
-  background-image: url('../images/HomeBg.png');
+  background-image: url('../images/Home\ Page\ Banner.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 100%;
 }
 
 body {
