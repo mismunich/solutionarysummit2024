@@ -46,6 +46,8 @@
   margin-bottom: 0;
 }
 
+
+
 @media screen and (max-width: 1229px) {
   .speakerMargin {
     margin-bottom: 160px;
@@ -84,4 +86,9 @@
   color: rgb(0, 61, 91);
   transition: all 0.2s;
   cursor: cell;
+}
+
+.buttons a {
+  color: inherit;
+  text-decoration: none;
 }
