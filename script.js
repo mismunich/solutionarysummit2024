@@ -2,7 +2,7 @@ function toggleResponsive() {
   let x = document.getElementById("topNav");
   if (x.className === "topnav") {
     x.className += " responsive";
-    x.style = "height: 495px;";
+    x.style = "height: 550px;";
   } else {
     x.className = "topnav";
     x.style = "height: 60px;";
